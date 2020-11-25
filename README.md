@@ -24,8 +24,16 @@ The goal of the project is to automate the detection of vehicle in a parking slo
     ipython kernel install --user --name=vehicle-detection-dl-virtenv
     
 #### 6. Get the repository
-    git clone 
+    git clone https://github.com/ankit2saxena/vehicle-detection-dl.git
     
-#### 10. Deactivate virtual environment
+#### 7. Deactivate virtual environment
     deactivate
     
+#### 8. Start Jupyter Notebook (Anaconda)
+    jupyter notebook
+    
+#### 9. Generate Model Training data
+    run notebooks/01_download_data.ipynb
+    
+#### 10. Generate ML Model
+    run notebooks/02_build_model.ipynb
