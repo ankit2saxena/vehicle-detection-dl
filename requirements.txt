@@ -1,6 +1,6 @@
 bokeh==1.4.0
 dill==0.3.1.1
-distributed==2.10.0
+distributed==2021.10.0
 Flask==1.1.1
 h5py==2.10.0
 haversine==2.2.0
